@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 #color1 {
   background-color: #000000;
 }
@@ -23,8 +18,47 @@
   border: 1px solid black;
 }
 
-div .color {
+div {
   display: inline-block;
   width: 40px;
   height: 40px;
+}
+
+.color {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+}
+
+#pixel-board {
+  margin-top: 70px;
+}
+
+#color-palette {
+  width: 180px;
+  height: 42px;
+  margin: 0 auto;
+}
+
+#pixel-board {
+  width: 210px;
+  height: 210px;
+  margin: 70px auto;
+  font-size: 0; 
+}
+
+button {
+  margin-top: 20px; 
 }

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#color1 {
+  background-color: #000000;
+}
+
+#color2 {
+  background-color: #faff00;
+}
+
+#color3 {
+  background-color: #02a9ea;
+}
+
+#color4 {
+  background-color: #ff01fb;  
+}
+
+.color {
+  border: 1px solid black;
+}
+
+div .color {
+  display: inline-block;
+}

@@ -15,7 +15,7 @@ function selectColor(cor) {
 }
 paleta.addEventListener('click', selectColor);
 
-function setColor(event) {
+function setColor() {
   let color = document.querySelector('.selected');
   let localColor = window.getComputedStyle(color);
   let newColor = localColor.getPropertyValue('background-color');
@@ -28,7 +28,10 @@ function paint(color) {
 }
 pixelBoard.addEventListener('click', paint);
 
-function clearButton() {
-  let pixels = document.querySelector('.pixel');
-  pixels.target
-}
+let button = document.querySelector('#clear-board');
+button.addEventListener('click', function () {
+  let pixelClear = document.getElementsByClassName('pixel');
+  for (let i = 0; i < pixelClear.length; i += 1) {
+    pixelClear[i].style.backgroundColor = 'white';
+  } 
+}); 
